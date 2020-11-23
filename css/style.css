@@ -16,6 +16,10 @@
     padding: 17px 150px 17px 61px;
 }
 
+.menu-button:hover {
+    cursor: pointer;
+}
+
 .intro {
     width: 1440px;
     height: 668px;
@@ -55,17 +59,12 @@
     height: 60px;
     left: 277px;
     top: 317px;
-
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 26px;
-
-    display: flex;
-    align-items: flex-end;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -75,20 +74,24 @@
     height: 50px;
     left: 620px;
     top: 405px;
-
     background: #2B4074;
     border-radius: 3px;
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 18px;
     color: #F9F6E5;
-
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.intro-button:hover {
+    background: #39559c;
+    cursor: pointer;
+    transition: background 1s;
+    -webkit-transition: background 1s;
 }
 
 .intro-pagination {
@@ -132,10 +135,26 @@
     background: #2B4074;
 }
 
+.right-arrow-block:hover {
+    background: #39559c;
+    cursor: pointer;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+}
+
+
+
 .left-arrow-block {
     left: 0px;
     top: 71px;
     background: #F9F6E5;
+}
+
+.left-arrow-block:hover {
+    background: #b2bbd3;
+    cursor: pointer;
+    transition: background 1s;
+    -webkit-transition: background 1s;
 }
 
 .arrow {
@@ -200,6 +219,13 @@
     align-items: center;
     justify-content: center;
     color: #2B4074;
+}
+
+.promo-button:hover {
+    background: #b2bbd3;
+    cursor: pointer;
+    transition: background 1s;
+    -webkit-transition: background 1s;
 }
 
 .services {
@@ -424,9 +450,9 @@
 }
 
 .project-content .content-item:hover .hover-block {
-    
+
     transition: opacity 1s 2s;
-    -webkit-transition: opacity 1s ;
+    -webkit-transition: opacity 1s;
     opacity: 1;
 }
 
