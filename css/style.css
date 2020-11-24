@@ -86,20 +86,22 @@
     display: flex;
     align-items:center;
     justify-content: center;
-}
-
-.intro-button {
-    margin-top: 18px;
     background: #2B4074;
     color: #F9F6E5;
 }
 
-.intro-button:hover {
+.button-hover:hover{
     background: #39559c;
     cursor: pointer;
     transition: background 1s;
     -webkit-transition: background 1s;
 }
+
+
+.intro-button {
+    margin-top: 18px;
+}
+
 
 .intro-pagination {
     margin-top: 128px;
@@ -139,31 +141,24 @@
 }
 
 .right-arrow-block {
+    border: none;
+    outline: none;
     left: 0px;
     top: 0px;
     background: #2B4074;
 }
 
-.right-arrow-block:hover {
-    background: #39559c;
-    cursor: pointer;
-    transition: background 1s;
-    -webkit-transition: background 1s;
-}
-
-
 
 .left-arrow-block {
+    border: none;
+    outline: none;
     left: 0px;
     top: 71px;
     background: #F9F6E5;
 }
 
-.left-arrow-block:hover {
+.left-arrow-block.button-hover:hover {
     background: #b2bbd3;
-    cursor: pointer;
-    transition: background 1s;
-    -webkit-transition: background 1s;
 }
 
 .arrow {
@@ -215,26 +210,14 @@
 }
 
 .promo-button {
-    width: 200px;
-    height: 50px;
     background: #F9F6E5;
     border-radius: 3px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #2B4074;
 }
 
-.promo-button:hover {
-    background: #b2bbd3;
-    cursor: pointer;
-    transition: background 1s;
-    -webkit-transition: background 1s;
+
+.promo-button.button-hover:hover{
+     background: #b2bbd3;
 }
 
 .line {
@@ -512,24 +495,10 @@
     margin-top: 39px;
 }
 
-
-
 .video-block .button {
-    border: none;
-    outline: none;
     position: absolute;
-    width: 230px;
-    height: 60px;
     left: 708px;
     top: 368px;
-    background: #2B4074;
-    border-radius: 3px;
-    color: #F9F6E5;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
 }
 
 /* NEWS BLOCK */
