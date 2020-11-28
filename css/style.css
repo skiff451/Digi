@@ -347,6 +347,7 @@
     text-align: center;
     margin-top: 22px;
     opacity: 0;
+    overflow: hidden;
 }
 
 .card .card-border-wrapper .hover-block .hover-text {
@@ -371,24 +372,26 @@
     color: #2B4074;
     display: inline-block;
 }
+.card:hover{
+    cursor: pointer;
+}
 
-.card .card-border-wrapper:hover {
+.card:hover .card-border-wrapper {
     border: 4px solid #2B4074;
     transition: border 0.5s;
 }
 
-.card-border-wrapper:hover .card-icon {
-
+.card:hover .card-icon {
     transition: margin-top 1s;
     margin-top: 25px;
 }
 
-.card-border-wrapper:hover .card-title {
+.card:hover .card-title {
     transition: margin-top 1s;
     margin-top: 15px;
 }
 
-.card-border-wrapper:hover .hover-block {
+.card:hover .hover-block {
     opacity: 1;
     transition: opacity 10s;
     -webkit-transition: opacity 1s 0.5s;
@@ -422,7 +425,6 @@
 .project-content {
     margin-top: 80px;
     width: 1140px;
-    /* padding: 0 151px; */
     display: flex;
     justify-content: space-between;
 
