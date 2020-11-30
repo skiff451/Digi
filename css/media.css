@@ -1,0 +1,38 @@
+/* @media (min-width: 1024px) {
+    .header-wrapper {
+        width: 935;
+    }
+
+    .intro-center-content {
+        width: 1024px;
+        height: 623px;
+    }
+
+    .promo-wrapper {
+        min-width: 921px;
+    }
+
+    .promo {
+        width: 1025px;
+        height: 160px;
+    }
+} */
+
+@media (min-width: 1440px) {
+
+    .header,
+    .projects-block,
+    .video-block,
+    .latest-news-block,
+    .quotes, .promo, .return, footer {
+        width: 100%;
+    }
+
+    .intro,
+    .intro-wrapper,
+    .intro-cover {
+        width: 100%;
+        height: 100%;
+
+
+    }
