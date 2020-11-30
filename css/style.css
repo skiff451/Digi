@@ -312,7 +312,6 @@
     border: 1px solid #F9F6E5;
     display: flex;
     justify-content: center;
-
 }
 
 .card .card-border-wrapper {
@@ -372,7 +371,8 @@
     color: #2B4074;
     display: inline-block;
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
 }
 
@@ -646,10 +646,215 @@
     bottom: 0;
 }
 
-.news-item:hover p{
+.news-item:hover p {
     background-color: #2B4074;
     color: #F9F6E5;
     bottom: 30px;
     transition: bottom 0.5s;
     -webkit-transition: bottom 0.5s;
+}
+
+/* NEWS BLOCK */
+
+.quotes {
+    width: 100%;
+    height: 533px;
+}
+
+.quotes .quotes-wrapper {
+    margin-top: 100px;
+    width: 1443px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quotes-wrapper img {
+    display: block;
+    text-align: center;
+}
+
+.quotes-wrapper p {
+    margin-top: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.quotes-wrapper span {
+    color: #2B4074;
+    font-weight: bold;
+}
+
+.quotes-wrapper .author {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.quotes-pagination {
+    margin-top: 80px;
+    width: 60px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-bullet {
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    border: 1px solid #2B4074;
+    border-radius: 50px;
+}
+
+.colored-bullet {
+    background-color: #2B4074;
+}
+
+footer {
+    background: #2B4074;
+}
+
+.footer-wrapper::before {
+    width: 230px;
+    height: 60px;
+    background: #2B4074;
+    border-radius: 3px;
+    content: url(/images/logo.svg);
+    /* margin-top: -30px;
+    margin-left: 36%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper {
+    width: 1440px;
+    height: 639px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-wrapper .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 188px;
+}
+
+.social-serv {
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.social-serv-item {
+    width: 283px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7EBF84;
+}
+
+.social-serv-item.first-item {
+    border-left: none;
+}
+
+.social-serv-item.last-item {
+    border-right: none;
+}
+
+.footer-cards-wrapper {
+    margin-top: 80px;
+    display: flex;
+    height: 177px;
+}
+
+.footer-card {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-card a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-card .card-title {
+    margin-bottom: 22px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #F9F6E5;
+}
+
+.footer-card a:hover {
+    text-decoration: underline;
+    font-size: 13px;
+    transition: text-decoration, font-size 0.5s;
+    -webkit-transition: text-decoration, font-size 0.5s;
+}
+
+.social-serv-item img:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #F9F6E5;
+    transition: border-bottom 0.5s;
+    -webkit-transition: border-bottom 0.5s;
+}
+
+.return {
+    width: 100%;
+    height: 42px;
+    background: #F9F6E5;
+}
+
+.return-wrapper {
+    width: 1440px;
+    height: 42px;
+    position: relative;
+}
+
+.up-block {
+    position: absolute;
+    right: 136px;
+    top: 15px;
+    display: flex;
+}
+
+.up-block p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #4A4A4A;
+    margin-right: 30px;
 }
