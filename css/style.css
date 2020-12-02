@@ -6,7 +6,7 @@
 
 .header {
     background-color: #2B4074;
-    width: 1440px;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     width: 1229px;
+    padding: 0 15px;
 
 }
 
@@ -26,23 +27,22 @@
 
 .container {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .intro {
-    width: 1440px;
+    width: 100%;
     height: 668px;
-    position: relative;
+
 
 }
 
 .intro-wrapper {
-    width: 1440px;
-    height: 668px;
+    position: relative;
+    width: 100%;
+    height: 100%;
     background-image: url(../images/bg-img.jpg);
     background-size: 100%;
-    position: relative;
 }
 
 
@@ -50,16 +50,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1440px;
-    height: 668px;
-    min-width: 1440px;
-    min-height: 668px;
+    width: 100%;
+    height: 100%;
     background: rgba(33, 33, 33, 0.5);
 }
 
 .intro-center-content {
     position: relative;
-    width: 1440px;
+    width: 885px;
     height: 668px;
     display: flex;
     flex-direction: column;
@@ -201,7 +199,7 @@
 }
 
 .promo {
-    width: 1440px;
+    width: 100%;
     height: 192px;
     background: #2B4074;
 }
@@ -210,7 +208,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 1140px;
+    width: 1140px;
+    padding: 0 62px;
 }
 
 .promo-title {
@@ -260,17 +259,20 @@
 /* SERVICES BLOCK */
 
 .services {
-    width: 1440px;
-    height: 546px;
+    width: 100%;
+    height: 100%;
+    padding-left: 62px;
+}
+
+.services-wrapper {
+    width: 100%;
     background: #ffffff;
     display: flex;
-
 }
 
 .services-text-wrapper {
     width: 530px;
-    height: 546px;
-    padding-left: 62px;
+    margin-bottom: 32px;
 }
 
 .services-title {
@@ -304,10 +306,8 @@
 
 .services-cards-wrapper {
     width: 1000px;
-    height: 546px;
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap;    
 }
 
 .card {
@@ -404,8 +404,8 @@
 /* PROJECT BLOCK */
 
 .projects-block {
-    width: 1440px;
-    height: 618px;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
 }
 
@@ -413,7 +413,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding: 80px;
+    
 }
 
 .project-title {
@@ -427,15 +428,16 @@
 }
 
 .project-content {
-    margin-top: 80px;
-    width: 1140px;
+    margin: 0 30px 80px 30px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-content .content-item {
     position: relative;
+    margin: 30px 15px 0 15px;
 }
 
 .project-content .content-item img {
@@ -482,7 +484,7 @@
 /* VIDEO BLOCK */
 
 .video-block {
-    width: 1440px;
+    width: 100%;
     height: 580px;
 }
 
@@ -528,7 +530,7 @@
 /* NEWS BLOCK */
 
 .latest-news-block {
-    width: 1440px;
+    width: 100%;
     height: 1044px;
     background: #F9F6E5;
 }
@@ -661,13 +663,13 @@
 /* NEWS BLOCK */
 
 .quotes {
-    width: 1440px;
+    width: 100%;
     height: 533px;
 }
 
 .quotes .quotes-wrapper {
     margin-top: 100px;
-    width: 1440px;
+    width: 100%;
     height: 276px;
     display: flex;
     flex-direction: column;
@@ -725,7 +727,7 @@
 /* FOOTER */
 
 footer {
-    width: 1440px;
+    width: 100%;
     background: #2B4074;
 }
 
@@ -743,7 +745,7 @@ footer {
 }
 
 .footer-wrapper {
-    width: 1440px;
+    width: 100%;
     height: 639px;
     margin-left: 150px;
     display: flex;
@@ -832,13 +834,13 @@ footer {
 }
 
 .return {
-    width: 1440px;
+    width: 100%;
     height: 42px;
     background: #F9F6E5;
 }
 
 .return-wrapper {
-    width: 1440px;
+    width: 100%;
     height: 42px;
     position: relative;
 }
