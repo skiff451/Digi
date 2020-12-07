@@ -733,7 +733,7 @@ footer {
     height: 60px;
     background: #2B4074;
     border-radius: 3px;
-    content: url(/images/logo.svg);
+    content: url(./images/logo.svg);
     margin-top: -30px;
     margin-left: calc(50% - 190px);
     display: flex;
