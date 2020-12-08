@@ -182,12 +182,13 @@
     .video-block-wrapper .text {
         font-size: 18px;
         line-height: 18px;
-        width: 100%;
+        width: 80%;
         margin-right: 60px;
     }
 
     .video-block .button {
-        left: 275px;
+        left: 255px;
+        top: 370px;
     }
 
     .services-cards-wrapper {
@@ -344,6 +345,16 @@
         height: 268px;
     }
 
+    .video-block {
+        height: 480px;
+    }
+
+
+    .text-block {
+        margin-left: 36px;
+    }
+
+
     .footer-wrapper {
         height: auto;
     }
@@ -368,7 +379,7 @@
 
 @media (max-width: 640px) {
     .video-block {
-        height: 850px;
+        height: 750px;
     }
 
     .video-block-wrapper {
@@ -559,7 +570,7 @@
     }
 
     .up-block a {
-       margin-top: 23px;
+        margin-top: 23px;
     }
 }
 
@@ -574,6 +585,11 @@
         font-size: 24px;
         line-height: 28px;
     }
+
+    .video-block {
+        height: 800px;
+    }
+
 }
 
 @media (max-width: 400px) {
