@@ -3,21 +3,23 @@
 $(document).ready(function () {
     var owl = $("#owl-demo");
     owl.owlCarousel({
-
-        // navigation: false, // Show next and prev buttons
-        // slideSpeed: 300,
-        // paginationSpeed: 400,
-        // // singleItem: true,
-        // responsive:	true,
-        // items : 1, 
-        // itemsDesktop : true,
-
+        items: 1,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+        singleItem: false,
+        slideSpeed: 500,
+        paginationSpeed: 800,
+        itemsDesktop: true,
+        autoHeight: false,
         items: 1,
         responsive: true,
         responsiveRefreshRate: 200,
         responsiveBaseWidth: window,
-
-
+        itemsDesktop: [1000, 1],
+        transitionStyle: "fade"
     });
 
     $(".next").click(function () {

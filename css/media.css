@@ -269,6 +269,15 @@
 
 @media (max-width: 790px) {
 
+    .first-carusel-block,
+    .second-carusel-block,
+    .third-carusel-block {
+        height: 465px;
+    }
+
+    .owl-theme .owl-controls{
+        margin-top: -50px !important;
+    }
     .intro,
     .intro-wrapper {
         height: 465px;
@@ -612,6 +621,17 @@
 }
 
 @media (max-width: 350px) {
+
+    .first-carusel-block,
+    .second-carusel-block,
+    .third-carusel-block {
+        height: 193px;
+    }
+
+    /* .owl-theme .owl-controls{
+        margin-top: -50px !important;
+    } */
+
 
     .intro,
     .intro-wrapper {

@@ -33,8 +33,6 @@
 .intro {
     width: 100%;
     height: 668px;
-
-
 }
 
 .intro-wrapper {
@@ -55,14 +53,16 @@
 }
 
 /* .carusel-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 60%;
-    margin: 0 auto;
+    min-height: 800px; 
 } */
 
 #owl-demo .owl-item img {
     display: block;
-    width: 100%;
+    width: 700px;
     height: 50%;
 }
 
@@ -74,27 +74,32 @@
     height: 100%;
 }
 
-/* .first-pic {
-    background-image: url(../images/carusel/first-pic.jpg);
+
+.first-carusel-block,
+.second-carusel-block,
+.third-carusel-block {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 668px;
 }
 
-.second-pic {
+.first-carusel-block {
+    background-image: url(../images/bg-img.jpg);
+}
+
+.second-carusel-block {
     background-image: url(../images/carusel/second-pic.jpg);
-    width: 100%;
-    height: 100%;
 }
 
-.third-pic {
+.third-carusel-block {
     background-image: url(../images/carusel/third-pic.jpg);
-    width: 100%;
-    height: 100%;
-} */
+}
 
-/* .intro-center-content img{
-    width: 100%;
-    height: 100%;
+/* .owl-theme .owl-controls {
+    margin-top: -90px;
 } */
 
 .intro-center-content {
