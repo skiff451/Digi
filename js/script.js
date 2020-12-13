@@ -32,4 +32,28 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+
+    $("#owl-quotes-example").owlCarousel({
+
+        items: 1,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+        singleItem: false,
+        slideSpeed: 500,
+        paginationSpeed: 800,
+        itemsDesktop: true,
+        autoHeight: false,
+        responsive: true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+        itemsDesktop: [1000, 1],
+        autoPlay : true,
+        stopOnHover : true,
+    });
+
+});
 

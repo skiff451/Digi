@@ -715,7 +715,6 @@
     margin-top: 100px;
     width: 100%;
     height: 276px;
-    /* padding: 0 15px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -727,6 +726,8 @@
     display: block;
     text-align: center;
 }
+
+
 
 .quotes-wrapper p {
     margin-top: 30px;
@@ -751,6 +752,32 @@
     line-height: 28px;
     text-align: center;
     letter-spacing: 2px;
+}
+
+.quotes-carusel-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-carusel-wrapper .owl-theme .owl-controls {
+    position: absolute;
+    top: 340px;
+    left: calc(50% - 40px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.quotes-carusel-wrapper .owl-theme .owl-controls .owl-page.active span {
+    border: 2px solid#2B4074 !important;
+    background-color: #ffffff00 !important;
+}
+
+.quotes-carusel-wrapper .owl-page span {
+    background-color: #2B4074 !important;
 }
 
 .quotes-pagination {
